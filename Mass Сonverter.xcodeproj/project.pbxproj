@@ -20,6 +20,7 @@
 		79F57AA3252D860600951208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79F57AA6252D860600951208 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79F57AA8252D860600951208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F57AB0252D982A00951208 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 				79F57A9F252D860500951208 /* Mass__onverterApp.swift */,
 				79F57AA1252D860500951208 /* ContentView.swift */,
 				79F57AA3252D860600951208 /* Assets.xcassets */,
+				79F57AB0252D982A00951208 /* README.md */,
 				79F57AA8252D860600951208 /* Info.plist */,
 				79F57AA5252D860600951208 /* Preview Content */,
 			);
@@ -280,7 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.johnniewalker.Mass--onverter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.johnniewalker.Mass--onverter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
